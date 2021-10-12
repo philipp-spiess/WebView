@@ -11,6 +11,8 @@
 		B170801E27163B5E004BB2F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B170801D27163B5E004BB2F3 /* ContentView.swift */; };
 		B170802027163B62004BB2F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B170801F27163B62004BB2F3 /* Assets.xcassets */; };
 		B170802327163B62004BB2F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B170802227163B62004BB2F3 /* Preview Assets.xcassets */; };
+		B170802A27163D88004BB2F3 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B170802927163D88004BB2F3 /* WebView.swift */; };
+		B170802C27163E40004BB2F3 /* WebViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B170802B27163E40004BB2F3 /* WebViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		B170801D27163B5E004BB2F3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B170801F27163B62004BB2F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B170802227163B62004BB2F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B170802927163D88004BB2F3 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		B170802B27163E40004BB2F3 /* WebViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		B170801A27163B5E004BB2F3 /* WebView */ = {
 			isa = PBXGroup;
 			children = (
+				B170802B27163E40004BB2F3 /* WebViewModel.swift */,
+				B170802927163D88004BB2F3 /* WebView.swift */,
 				B170801B27163B5E004BB2F3 /* WebViewApp.swift */,
 				B170801D27163B5E004BB2F3 /* ContentView.swift */,
 				B170801F27163B62004BB2F3 /* Assets.xcassets */,
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B170802A27163D88004BB2F3 /* WebView.swift in Sources */,
 				B170801E27163B5E004BB2F3 /* ContentView.swift in Sources */,
 				B170801C27163B5E004BB2F3 /* WebViewApp.swift in Sources */,
+				B170802C27163E40004BB2F3 /* WebViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +277,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WebView/Preview Content\"";
+				DEVELOPMENT_TEAM = SJBEAFYX4T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -298,6 +307,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WebView/Preview Content\"";
+				DEVELOPMENT_TEAM = SJBEAFYX4T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

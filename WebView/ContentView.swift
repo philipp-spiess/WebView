@@ -8,9 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var model = WebViewModel()
+
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        WebView(webView: model.webView)
     }
 }
 

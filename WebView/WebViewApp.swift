@@ -11,7 +11,9 @@ import SwiftUI
 struct WebViewApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().edgesIgnoringSafeArea(.all)
+                .statusBar(hidden: true)
+
         }
     }
 }
